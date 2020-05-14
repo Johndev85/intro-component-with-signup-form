@@ -164,6 +164,7 @@ form input {
 @media (max-width: 375px) {
 
 body {
+    background-image: url(../images/bg-intro-mobile.png);
     max-width: 375;
     height: 900;
 }
