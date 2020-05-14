@@ -27,7 +27,7 @@
 body {
     max-width: 1440px;
     height: 700px;
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(./images/bg-intro-desktop.png);
     background-color: var(--red-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -102,7 +102,7 @@ form input {
     margin: 10px 0px;
     height: 40px;
     /* --------------------------------------------validation -- */
-    background-image: url(/images/icon-error.svg);
+    background-image: url(./images/icon-error.svg);
     background-image: none;
     background-repeat: no-repeat;
     background-position: 23em;
