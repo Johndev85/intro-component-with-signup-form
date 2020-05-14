@@ -27,7 +27,7 @@
 body {
     max-width: 1440px;
     height: 700px;
-    background-image: url(./images/bg-intro-desktop.png);
+    background-image: url(../images/bg-intro-desktop.png);
     background-color: var(--red-color);
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -36,11 +36,10 @@ body {
 }
 
 .container {
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 600px;
 }
 
 .title {
@@ -101,8 +100,9 @@ form {
 form input {
     margin: 10px 0px;
     height: 40px;
+    border-radius: 5px;
     /* --------------------------------------------validation -- */
-    background-image: url(./images/icon-error.svg);
+    background-image: url(../images/icon-error.svg);
     background-image: none;
     background-repeat: no-repeat;
     background-position: 23em;
@@ -147,16 +147,29 @@ form input {
     cursor: pointer;
 }
 
+.attribution {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    height: 50px;
+}
+
+.attribution a {
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+/* -----------------------------------------------RESPONSIVE--> */
+
 @media (max-width: 375px) {
 
 body {
     max-width: 375;
+    height: 900;
 }
 
-
 .container {
-    height: 950px;
-    border: 1px solid white;
+    height: 900px;
     flex-direction: column;
     align-items: inherit;
 }
@@ -178,7 +191,6 @@ h1 {
     margin: 20px 30px 30px 30px;
 }
 
-
 label {
     margin: 30px;
     padding: 15px;
@@ -188,5 +200,21 @@ label {
 form {
     margin: 0px 30px;
 }
+
+form input {
+    /* --------------------------------------------validation -- */
+    background-position: 18em;
+    /* --------------------------------------------validation -- */
+}
+
+.small_letre {
+    display: block;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 0.7em;
+}
+
 
 }
