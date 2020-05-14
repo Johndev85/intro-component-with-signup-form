@@ -94,7 +94,7 @@ form {
     text-align: right;
     font-style: italic;
     font-size: 0.7em;
-    display: inline;
+    display: none;
 }
 /* --------------------------------------------validation -- */
 
@@ -103,6 +103,7 @@ form input {
     height: 40px;
     /* --------------------------------------------validation -- */
     background-image: url(/images/icon-error.svg);
+    background-image: none;
     background-repeat: no-repeat;
     background-position: 23em;
     /* --------------------------------------------validation -- */
@@ -144,4 +145,48 @@ form input {
 .small_letre .small_red {
     color: red;
     cursor: pointer;
+}
+
+@media (max-width: 375px) {
+
+body {
+    max-width: 375;
+}
+
+
+.container {
+    height: 950px;
+    border: 1px solid white;
+    flex-direction: column;
+    align-items: inherit;
+}
+
+.title {
+    width: 375px;
+    margin: 50 0px 30px 0px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.title p {
+    text-align: center;
+    font-size: 0.9em;
+    margin: 20px 30px 30px 30px;
+}
+
+
+label {
+    margin: 30px;
+    padding: 15px;
+    flex-direction: column;
+}
+
+form {
+    margin: 0px 30px;
+}
+
 }
