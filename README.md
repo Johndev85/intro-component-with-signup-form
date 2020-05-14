@@ -15,3 +15,10 @@ The challenge:
 
 ##### Mobile version:
 ![Intro component with sign up form mobile](https://repository-images.githubusercontent.com/263839485/8c705980-95d4-11ea-9666-3776b1418e9f "Intro component with sign up form mobile")
+
+
+##### Form field validation:
+![Form field validation](https://repository-images.githubusercontent.com/263839485/1daff200-960e-11ea-9c64-423c6d7021e5 "Form field validation")
+
+
+
