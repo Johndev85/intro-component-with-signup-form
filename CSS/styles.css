@@ -1,0 +1,130 @@
+/* ------------------------FONTS------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* -------------------------VARIABLES------------------------------ */
+:root {
+    /* -------------------------------PRIMARY----------- */
+
+    --red-color:hsl(0, 100%, 74%);
+    --green-color:hsl(154, 59%, 51%);
+
+/* ---------------------------------------ACCCENT------------- */
+    --blue-color:hsl(248, 32%, 49%);
+
+    /* -------------------------------------NEUTRAL----------------- */
+
+    --darkBlue-color:hsl(249, 10%, 26%);
+    --grayisBlue-color: hsl(246, 25%, 77%);
+    /* --------------------------------------------------------------- */
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    max-width: 1440px;
+    height: 700px;
+    background-image: url(/images/bg-intro-desktop.png);
+    background-color: var(--red-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+
+.container {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.title {
+    width: 500px;
+    margin-right: 50px;
+}
+
+.title p {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+
+.trial {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue-color);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    border: 1px solid var(--darkBlue-color);
+    box-shadow: 0px 5px 8px var(--blue-color);
+}
+
+label .p_label1 {
+    font-weight: 600;
+}
+
+form {
+    display: grid;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form input {
+    margin: 10px 0px;
+}
+
+.submit {
+    background-color: var(--green-color);
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color:#53b08f;;
+}
+
+.submit:hover {
+    background-color: #37755f;
+    box-shadow: 0px 2px 15px var(--green-color);
+    color: var(--green-color);
+}
+
+form input {
+    color: var(--darkBlue-color);
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.small_letre {
+    display: flex;
+    font-size: 0.8em;
+    padding: 0px 10px;
+}
+
+.small_letre small {
+    color: var(--grayisBlue-color);
+}
+
+.small_letre .small_red {
+    color: red;
+    cursor: pointer;
+}

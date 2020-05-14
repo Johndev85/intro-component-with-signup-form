@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="/CSS/styles.css">
     <title>Intro component with sign up form</title>
 </head>
@@ -11,25 +12,31 @@
 
         <div class="title">
 
-            <h1> Learn to code by watching others </h1>
+            <h1> Learn to code by <br>
+                 watching others
+            </h1>
             <p> See how experienced developers solve problems in real-time. <br>
                     Watching scripted tutorials is great, but understanding how <br>
                     developers think is invaluable.
             </p>
         </div>
         <div class="trial">
-            <label for=""> Try it free 7 days then $20/mo. thereafter </label>
-            <form action="">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="email" placeholder="Email Address">
-                <input type="password" placeholder="Password">
+            <label for=""> <p class="p_label1"> Try it free 7 days </p>  &nbsp; <p>then $20/mo. thereafter</p>  </label>
+            <div>
+                <form class="form" action="">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="email" placeholder="Email Address">
+                    <input type="password" placeholder="Password">
 
-                <input type="submit" value="Claim your free trial">
-                <small> By clicking the button, you are agreeing to our Terms and Services </small>
-            </form>
+                    <input type="submit" class="submit" value="CLAIM YOUR FREE TRIAL">
+                    <div class="small_letre">
+                        <small> By clicking the button, you are agreeing to our </small>  &nbsp;
+                        <small class="small_red">Terms and Services </small>
+                    </div>
+                </form>
+            </div>
         </div>
-
     </section>
 </body>
 </html>
