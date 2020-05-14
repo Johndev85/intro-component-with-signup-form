@@ -87,13 +87,31 @@ form {
     border-radius: 10px;
 }
 
+/* --------------------------------------------validation -- */
+
+.text_validaty {
+    color: red;
+    text-align: right;
+    font-style: italic;
+    font-size: 0.7em;
+    display: inline;
+}
+/* --------------------------------------------validation -- */
+
 form input {
     margin: 10px 0px;
+    height: 40px;
+    /* --------------------------------------------validation -- */
+    background-image: url(/images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 22em;
+    /* --------------------------------------------validation -- */
 }
 
 .submit {
     background-color: var(--green-color);
-    padding: 15px;
+    background-image: none;
+    padding: 10px;
     color: white;
     font-weight: 600;
     border-radius: 10px;
@@ -104,7 +122,6 @@ form input {
 .submit:hover {
     background-color: #37755f;
     box-shadow: 0px 2px 15px var(--green-color);
-    color: var(--green-color);
 }
 
 form input {
